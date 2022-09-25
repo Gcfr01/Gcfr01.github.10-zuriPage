@@ -1,0 +1,1492 @@
+body{
+    background: rgb(255, 253, 245);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    max-width: 100%;
+    overflow-x : hidden !important;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    /* margin-top: 20px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: rgb(255, 253, 245);
+}
+.t-star img{
+    display: none;
+}
+.header-logo img{
+    width: 105%;
+    margin: 20px 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: -100px;
+    display: none;
+}
+nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav a{
+    text-decoration: none;
+    color:#333;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.thumb img{
+   width: 65%; 
+   justify-content: center;
+   place-content: center;
+   text-align: center;
+   margin: 10px;
+}
+.thumb{
+    background-color: #e7332b;
+    border-radius: 120%;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: -8px;
+    left: 20px;
+}
+.header-enroll{
+    background-color: #e7332b;
+    border-radius: 100px;
+    width: 130px;
+    height: 48px;
+    text-align: center;
+    
+}
+.p {
+position: relative;
+letter-spacing: 1px;
+font-size: 18px;
+color: #fff;
+justify-content: center;
+}
+
+.logo2{
+    margin-top: 20px;
+    display: inline-flex; 
+}
+main{
+    margin-top: 130px;
+}
+.hero{
+    color: rgb(255, 253, 245);
+}
+.hero img{
+    width: 90%;
+    margin-bottom: -40px;
+    margin-top: -30px;
+    background-color: rgb(255, 253, 245);
+    z-index: -100;
+}
+.boy img{
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 70px;
+    display: none;
+}
+.gain p{
+    color: #e7332b;
+    letter-spacing: 1px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+
+}
+.gain h1{
+    text-align: center;
+    font-size:29px ;
+    margin: -10px 20px 0 ;
+
+}
+.gain img{
+    width: 150px;
+    float: right;
+    position: relative;
+    width: 30%;
+    right: 40px;
+}
+.gero-p{
+    text-align: center;
+    margin: 50px auto 0 ;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #1b1a20!important;
+}
+.gain{
+    text-align: center;
+
+}
+.middle{
+width: 90%;
+display: block;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 100px auto ;
+position: relative;
+}
+
+.middle button{
+    display: block;
+    padding: 11px 22px;
+    background-color: #e7332b ;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    margin-left: 20px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.middle a{
+    color :#fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.middle img{
+    width: 15%;
+    position: absolute;
+    left: 200px;
+}
+.ingressive{
+    padding: 0 5px 50px;
+    text-align: center;
+    border-bottom: 1px solid
+    rgb(206, 203, 203);
+}
+.ingressive h2{
+    font-size: 20px;
+}
+.ingressive p{
+    
+    letter-spacing: 0.3px;
+}
+hr{
+    margin-bottom: 34px;
+}
+
+.ingressive img{
+    width: 50%;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+.ingressive p{
+    color: rgb(80, 79, 79);
+    text-align: center;
+    font-size: 18px;
+    margin: 0 20px;
+}
+.ingressive p a {
+    color: green;
+}
+.why{
+    display: inline-block;
+    width: 100%;
+    margin-left: 15px;
+    /* text-align: center; */
+}
+.whyimg{
+    
+    text-align: center; 
+}
+.why img{
+    width: 15%;
+    margin-top: 30px;
+    margin-bottom:-20px ;
+}
+.why p{
+    color: #e7332b;
+    font-size: 18px;
+    word-spacing: 1px;
+    margin-bottom: -20px;
+}
+.why h2{
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: rgb(29, 29, 29);
+    margin-bottom: 50px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* margin-left: 15px; */
+    margin-bottom: 80px;
+}
+.one{
+    background-color: #fff;
+    margin: 0 15px 20px 15px;
+    padding: 40px;
+    display: inline-flex;
+    border-radius: 20px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    
+}
+.one :hover{
+
+}
+.oone, .one{
+    background-color: #e7332b;
+    /* background-color: #fff; */
+    margin: 0 15px 20px 15px;
+    padding: 20px;
+    display: inline-flex;
+    border-radius: 20px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    color: #fff;
+    position: relative;
+}
+.one{
+    background-color: #fff;
+    color: black;
+}
+
+
+.oone img{
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    width: 32%;
+
+}
+.one img{
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    width: 32%;
+
+}
+
+.det01, .det02{
+    /* color: #fff!important; */
+    margin-bottom: -20px;
+    /* font-family: Graphik!important; */
+    font-size: 44px!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    line-height: 130%!important;
+} 
+.det02{
+    color:  #1b1a20!important;
+} 
+ .remote1, .remote{
+    /* color: #fff!important; */
+    /* font-family: Graphik!important; */
+    font-size: 28px!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    line-height: 130%!important;
+    /* padding-bottom: 20px!important; */
+    padding-top: 20px!important;
+ }
+ .remote p{
+    color :#1b1a20;
+ }
+ .online2 p{
+    color:  #1b1a20!important;
+ }
+.online, 
+.online2{
+    /* color: #fff!important; */
+    /* font-family: Graphik!important; */
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 130%!important;
+}
+.high{
+    background-color: #e7332b;
+    width: 100%;
+    margin-bottom: 50px ;
+    padding-left: 20px;
+    padding-bottom: 40px;
+
+    color: #fff;
+    /* padding-right: 50px; */
+}
+.himage{
+    text-align: center;
+}
+.high img{
+    margin-top: 30px;
+    width: 15%;
+}
+.high p{
+    margin-top: 50px;
+    width: 95%;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+.enroll-btn{
+    padding:10px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.enroll-btn a{
+    color: #e7332b;
+    text-decoration: none;
+}
+.more{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+}
+.moreimage{
+    border: 2px solid #fff;
+    border-radius: 40px;
+    
+    width: 85%;
+    background-color: #e7332b;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+   margin-bottom: 25px;
+   user-select: none;
+}
+.moreimage img{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+.moreimage p{
+    font-size: 14px;
+    color: #fff;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+.girl-image{
+    width: 100%;
+    margin-top: -50px;
+}
+.girl-image img{
+    width: 95%;
+
+}
+.dots5 img{
+    width: 10%;
+}
+.scope{
+    padding-top: 20px;;
+}
+.scope p{
+    color: #e7332b;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+.scope h2{
+    letter-spacing: 1px;
+    color: #1b1a20;
+}
+.scope-image{
+    width: 100%;
+    text-align: center;
+}
+.scope-image img{
+    width: 40%;
+}
+.programs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(206, 203, 203);
+    /* border-bottom-width: 50%; */
+}   
+.tracks{
+    margin-left: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding: 20px 30px 50px;
+}
+.programs :nth-child(5) img{
+    width: 17%;
+}
+.programs :nth-child(6) img{
+    width: 26%;
+}
+.tracks h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.tracks img{
+    width: 20%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.tracks p{
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+
+}
+.front-logos :nth-child(3){
+    width: 45px;
+}
+.back-logos img{
+    width: 45px;
+}
+.prod-logos .xd{
+    width: 50px;
+}
+.prod-logos .fig{
+    width: 100px;
+}
+
+.dev-logos img{
+    width: 70px;
+}
+.full-logos img{
+    width: 40px;
+}
+.full-logos .js{
+    width: 50px;
+}
+.full-logos .py{
+    width: 50px;
+}
+.frame-logos img{
+    width:80px ;
+}
+.question-sec{
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(206, 203, 203);
+}
+.question-wire img{
+    width: 20%;
+    margin-left: 50px;
+    margin-bottom: -30px;
+}
+.got{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.got p{
+    font-size: 20px;
+    color: #e7332b;
+    margin-bottom: -15px;
+}
+.questions{
+    /* box-sizing: border-box; */
+    /* border: 1px solid rgb(206, 203, 203); */
+    padding: 25px ;
+    /* margin-left: 15px; */
+    margin-bottom: 40px;
+}
+.question1{
+    margin: o auto;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid rgb(206, 203, 203);
+}
+.q-btn {
+    border: none;
+    background-color: inherit;
+}
+.q-btn span{
+    /* width: 1%; */
+    padding: 2px 5px;
+    border: 1px solid rgb(206, 203, 203);
+
+}
+
+.ans1{
+    border-top: 1px solid rgb(206, 203, 203);
+    display: none;
+}
+ .show .ans1{
+    display: block;
+}
+.minus{
+    display: none;
+}
+.show .minus{
+    display: block;
+}
+.show .plus{
+    display: none;
+}
+.q1{
+    display: flex;
+}
+.still{
+    text-align: center;
+    
+}
+.still p{
+    margin-bottom: -90px;
+    color: #333;
+
+}
+
+
+.sect-8{
+    margin: 40px auto 0;
+}
+
+
+.sect-8-logo{
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+.sect-8-logo img{
+    width: 15%;
+}
+.sect-8-title{
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+
+}
+.sect-8-title p {
+    font-size: 17px;
+    color: #e7332b;
+    margin-bottom: -15px;
+}
+.programs{
+    margin: 0 20px;
+}
+.full-time,.part-time{
+    background-color: #1b1a20;
+    color: white;
+    padding: 40px 40px 50px;
+    border-radius: 50px;
+    margin-bottom: 60px;
+
+}
+.full-time h1{
+    font-size: 36px;
+}
+.full-time h3{
+    margin-bottom: -10px;
+    letter-spacing: 1px;
+    font-size: 26;
+}
+.full-time p{
+    letter-spacing: 0.4px;
+}
+.full-time ul{
+    margin-left: -20px;
+    line-height: 25px;
+}
+.full-time a{
+    color:#fff
+}
+.full-time img{
+    width: 15px;
+}
+.attendance :nth-child(6) img{
+    width: 15px;
+}
+.int-view p{
+    margin-top: -10px;
+    margin-left: 20px;
+    line-height: normal;
+}
+
+.back{
+    margin-top: -20px;
+    line-height: 7px;
+}
+.hour img{
+    float: right;
+    width: 30%;
+    margin-top: -110px;
+    margin-right: -20px;
+}
+.time img{
+    width: 50%;
+    float: right;
+    margin-top: -100px;
+    margin-right: -20px;
+}
+.circle img{
+    width: 40%;
+    float: right;
+    margin-top: -142px;
+}
+.sect-nine{
+    background-color: #e7332b;
+    margin: 0 15px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+}
+.nine-circle img{
+    width: 10%;
+    margin-bottom: -80px;
+    margin-left: 50px;
+    display: none;
+    
+}
+
+.bend1{
+    width: 30%;
+    margin-top: 0px;
+    float: right;
+}
+.bend2{
+    width: 22%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.pro button{
+    background-color: white;
+    color: #e7332b;
+    font-size: 18px;
+    width: 40%;
+    margin-bottom: -100px;
+}
+.nine-text{
+    text-align: center;
+    color: white;
+    margin: -70px 25% 0 ;
+
+}
+.nine-text p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.nine-text h1{
+    font-size: 28px;
+    margin-bottom: -50px;
+}
+.pro button{
+    width: 60%;
+}
+.nine-foot img{
+    width: 30%;
+    margin-bottom: -10px;
+}
+ footer{
+    width: 100%;
+    margin: 100px auto 0;
+    text-align: center;
+ }
+ .foot-socials{
+    border-bottom: 1px solid rgb(206, 203, 203);
+ }
+ .foot-socials li{
+    display: inline-block;
+    /* margin-right: 1px; */
+    width: 60px;
+    /* background-color: #e7332b; */
+}
+.foot-socials .fa-brands{
+    color: white;
+    background-color: #e7332b;
+    padding: 10px;
+    border-radius: 90px;
+    width: 15px;
+    height: 15px;
+}
+.foot-socials i{
+   background-color: #e7332b;
+    margin-bottom: 50px;
+}
+.policy{
+    margin-top: 40px;
+}
+.policy a{
+    color: #1b1a20;
+    text-decoration: none;
+    
+}
+.policy p{
+    margin-bottom: 30px;
+}
+
+.copyright{
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 400px){
+    .gero-p{
+        padding-right: 30px;
+    }
+    .why h2{
+        padding-right:10px;
+    }
+    .front-logos img {
+        width: 10%;
+    }
+    .full-logos{
+            width: 70%;
+    }
+    .high h3{
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .high p{
+        /* padding-right: 130px; */
+        width: 90%;
+        font-size: 20px;
+    }
+    .q1{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+    @media screen and (min-width: 600px){
+        body{
+            max-width: 100%;
+        }
+        .header-logo img{
+            width: 50%;
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+        .logo2{
+            margin-right: 20px;
+            /* width: 100%; */
+        }
+        .hero{
+            text-align: center;
+        }
+    .hero img{
+        width: 70%;
+    }
+    .gain{
+        position: relative;
+    }
+    .gain h1{
+        font-size: 38px;
+    }
+    .gain img{
+        position: absolute;
+        width: 20%;
+        right: 200px;
+    }
+    .gero-p{
+        font-size: 18px;
+        margin: 40px 90px -50px;
+    }
+    .middle{
+        position: relative;
+        padding-bottom: 50px;
+    }
+    .middle img{
+        position: absolute;
+        left: 380px;
+    }
+    .remote{
+        font-size: 48px;
+    }
+    .ingressive h2{
+        font-size: 28px;
+    }
+    .ingressive img{
+        width: 40%;
+    }
+    .front-logos img{
+        width: 8%;
+    }
+    .full-logos{
+        width: 50%;
+    }
+    .frame-logos {
+        width: 60%;
+    }
+    .sect-8-logo{
+        margin-left: 40px;
+    }
+    .sect-8-logo :first-child{
+        width: 25%;
+    }
+    .sect-8-title p{
+        font-size: 19px;
+    }
+    .sect-8-title h2{
+        color: #1b1820;
+        font-size: 26px;
+    }
+    .hour img, .time img, .circle img{
+        width: 20%;
+    }
+    .scope{
+        margin-left: 20px;
+    }
+    .scope h2{
+        font-size: 26px;
+        padding-right: 40%;
+    }
+    .q1 p{
+        font-size: 18px;
+    }
+    
+    .bend2{
+    width: 13%;
+    margin-left: 60px;
+    margin-top: 80px;
+    }
+    .bend1{
+        width: 25%;
+    }
+    .nine-text{
+        margin-top: -150px;
+    }
+    .nine-text h1{
+        font-size: 38px;
+    }
+    .pro{
+        width: 50%;
+        margin-bottom: -10px;
+    }
+    .nine-foot img{
+        width: 20%;
+    }
+    .footer-logo {
+        text-align: left;
+        
+        }
+        .footer-logo img{
+            width: 90%;
+        }
+        .foot-socials ul{
+            margin-top: -2px;
+            margin-left: -30px;
+        }
+    .policy {
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+        margin-left: 20px;
+        /* margin-right: 20px; */
+      }
+      .divider1{
+        display: inline-flex;
+        justify-content: space-around;
+        /* flex-wrap:wrap; */
+      }
+    .divider{
+        text-align: center;
+        display:flex;
+        justify-content: space-between;
+    }
+    .copyright{
+        margin-top: 40px;
+        margin-right: 30px;
+    }   
+
+}
+@media screen and (min-width: 700px){
+    .header-logo img{
+        width: 90%;
+    }
+    .logo2{
+        margin-right: 40px;
+    }
+    .thumb img{
+        width: 72%; 
+        justify-content: center;
+        place-content: center;
+        text-align: center;
+        place-items: center;
+        margin: 10px;
+     }
+     .thumb{
+         background-color: #e7332b;
+         border-radius: 120%;
+         height: 80px;
+         width: 80px;
+         position: relative;
+        
+     }
+     .header-enroll{
+         background-color: #e7332b;
+         border-radius: 110px;
+         width: 140px;
+         height: 45px;
+         text-align: center;
+         margin-top: 10px;
+         z-index: -1;
+         position: relative;
+         
+     }
+     .p {
+         top: -5px;
+     letter-spacing: 1px;
+     font-size: 18px;
+          
+     }
+     
+     .logo2{
+         margin-top: 20px;
+         display: inline-flex; 
+     }
+     .ingressive h2{
+        font-size: 24px;
+        padding-right: 30px;
+        padding-left: 30px;
+     }
+     .box{
+        margin-left: 40px;
+        margin-right: 40px;
+        
+     }
+     .oone{
+        padding-left: 50px;
+     }
+     .high{
+        padding-left: 50px;
+
+     }
+     .high h1{
+        width: 80%;
+     }
+     .moreimage{
+        /* display: flex; */
+        width: 60%;
+
+     }
+     .moreimage img{
+        width: 30%;
+        margin-top: 10px;
+     }
+     .moreimage p{
+        font-size: 15px;
+        margin-left: -60px;        
+     }
+     .more :nth-child(4) p{
+        font-size: 13px;
+     }
+     .scope h2{
+        font-size: 24px;
+     }
+     .scope-image img{
+        width: 10%;
+     }
+     .front-logos img{
+        width: 7%;
+     }
+     .full-logos img{
+        width: 1%;
+     }
+     .still{
+        margin: 0 auto;
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+     }
+     .still :nth-child(2){
+        margin-top: 10px;
+     }
+     .sect-8-logo :nth-child(2){
+        margin-left: 100px;
+     }
+     .hour img{
+        width: 15%;
+     }
+     .time img{
+        width: 25%;
+     }
+     .nine-circle img{
+        display: flex;
+     }
+     
+}
+@media screen and (min-width: 800px){
+    .why{
+      margin-left: 40px;  
+    }
+    .why p{
+        font-size: 20px;
+    }
+    .why h2{
+        font-size: 32px;
+        width: 95%;
+        line-height: 34px;
+    }
+    .scope p{
+        font-size: 20px;
+    }
+    .scope h2{
+        font-size: 30px;
+        width: 65%;
+    }
+    .front-logos img{
+        width: 5%;
+    }
+    .full-logos {
+        width: 30%;
+    }
+}
+@media screen and (min-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    .middle img{
+        width: 10%;
+        margin-left: 150px;
+    }
+    .ingressive{
+        display: flex;
+        /* margin-bottom: -50px; */
+    }
+    .ingressive h2{
+        text-align: left;
+        font-size: 22px;
+        width: 100%;
+    }
+    .ingressive img{
+        width: 25%;
+        margin-top: -50px;
+    }
+    .whyimg img{
+        width: 8%;
+        margin-right: 400px;
+    }
+    .t-star img{
+        position: absolute;
+        display: flex;
+        left: 550px;
+        width: 20%;
+        bottom: 30px;
+
+    }
+    .t-star{
+        margin-bottom: 50px;
+        position: relative;
+        display: flex;
+        max-width: fit-content;
+    }
+    .t-star h2{
+     font-size: 28px;
+        width: 50%;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .more{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+    .more button{
+        position: relative;
+        width: 80%;
+        height: 75%;
+        margin-left: -10px;
+    }
+    .more :nth-child(4){
+        height: 80%;
+    }
+    .more button p{
+        position: absolute;
+        left: 80px;
+        /* margin-left: 5px; */
+    }
+    .scope h2{
+        width: 90%;
+    }
+    .programs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .pr
+    .front-logos img{
+        width: 10%;
+    }
+    .full-logos{
+        width: 50%;
+    }
+    .programs .middle{
+        text-align-last: center;
+        margin:  50px 50% 30px 50%;
+    }
+    .programs .middle button {
+        width: 45%;
+    }
+    .question-wire img{
+        width: 10%;
+        margin-left: 150px;
+    }
+    .got{
+        margin-top: -50px;
+    }
+    .got h2{
+        font-size: 32px;
+    }
+    .questions{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .still p{
+        font-size: 22px;
+        /* width: 100%; */
+    }
+    .question-sec{
+        /* padding-bottom: -100px; */
+    }
+    /* .sect-8-logo img{
+        width: 5%;
+    } */
+    .sect-8-logo :nth-child(2){
+        margin-left: 300px;
+        width: 13%;
+    }
+    .sect-8-logo :nth-child(1){
+        width: 12%;
+        margin-left: 40px;
+    }
+    .full-time{
+        width: 75%;
+    }
+    .sect-nine{
+        margin-left:40px;
+        margin-right:40px;
+    }
+    .nine-logo{
+        position: relative;
+    }
+    .bend1{
+        /* position: absolute; */
+        width: 15%;
+        position: absolute;
+        top: 0px;
+        right: -1px;
+        /* width: 32%;; */
+    
+    }
+    .nine-text h1{
+        font-size: 52px;
+        width: 100%;
+    }
+    .nine-foot img{
+        width: 15%;
+    }
+    .divider1{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+        margin-left: 40px;
+        /* flex-wrap:wrap; */
+      }
+    .divider{
+        /* text-align: center; */
+        display:flex;
+        justify-content: space-between;
+        margin-right: 40px;
+        margin-left: 40px;
+       
+    }
+}
+@media screen and (min-width: 1000px){
+    nav ul{
+        display: inline-flex;
+    }
+    .header-logo img{
+        width: 60%;
+    }
+    .gain h1{
+        font-size: 50px;
+    }
+    .gain img{
+        width: 30%;
+        left: 600px;
+    } 
+    .hero img{
+        margin-bottom: -100px;
+    }
+    .gero-p{
+        margin-top: 50px;
+        
+        margin-left: 180px;
+        margin-right: 180px;
+        text-align: center;
+    }
+    .high h1{
+        margin-top: -20px;
+    }
+    .circle img{
+        width: 15%;
+    }
+    .programs{
+        border-bottom: none;
+    }
+    .sect-8{
+        margin-bottom: 100px;
+        
+    }
+    .pro button{
+        width: 35%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .header-logo img{
+        width: 90%;
+        margin-top: 20px;
+    }
+    nav ul{
+        margin-top: 40px;
+    }
+    .hero-container{
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 180px;
+    }
+    .hero img{
+        width: 90%;
+        margin-top: 160px;
+        margin-left: 50px;
+    }
+    .gain h1{
+        width: 120%;
+        font-size: 50px;
+        margin-left: -50px;
+    }
+    .gain img{
+        left: 250px;
+        width: 50%;
+    }
+    .gero-p{
+        width: 80%;
+        margin-left: 30px;
+    }
+     .middle button{
+        /*  */
+        width: 15%;
+    }
+    .first-enroll{
+        margin-top: -50px;
+    }
+    .middle-img{
+        margin-bottom: 20px;
+
+    }
+    .middle-img  img{
+        width: 6%;
+        margin-left: 180px;
+        /* margin-bottom: 500px; */
+    }
+    .ingressive h2{
+        font-size: 24px;
+        width: 40%;
+    }
+    .ingressive img{
+
+        width: 15%;
+        margin-top: -40px;
+        margin-left: -10px;
+        z-index: -1;
+    }
+    .ingressive p{
+        text-align: right;
+        width: 25%;
+        font-size: 26px;
+    }
+    .why p{
+        font-size: 24px;
+        
+    }
+    .t-star h2{
+        line-height: 50px;
+        font-size: 42px;
+        width: 60%
+    }
+    .t-star img{
+        width: 17% ;
+        margin-left: 250px;
+        top: 1px;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .high{
+        margin: 0;
+        padding-bottom: 120px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .high-head{
+        margin-left: 60px;
+    }
+    .himage img{
+        width: 13%;
+        margin-top: 80px;
+    }
+    .high-head h1{
+        font-size: 44px;
+    }
+    .high-head p{
+        width: 60%;
+    }
+    .more{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .more button{
+        position: relative;
+        height: 80%;
+     }
+    .more :nth-child(4){
+        height: 80%;
+        font-size: 20px;
+        
+    }
+    .more :nth-child(4) p{
+        /* height: 80%; */
+        font-size: 20px;
+        top: 1px;
+        
+    }
+    .moreimage img{
+        width: 40%;
+        margin-top: 10px;
+        padding-right: 100px;
+    }
+    .moreimage p{
+        position: absolute;
+        font-size: 20px;
+        left: 50px;
+        top: 10px;
+        margin-left: -20px;
+        
+    }
+    .high-foot{
+        position: relative;
+    }
+    .dots5 img{
+        position: absolute;
+        width: 20%;
+        left: -620px;
+        bottom:-80px ;
+
+    }
+    .girl-image img{
+        position: absolute;
+        top: 80px;
+        right: 100px;
+    }
+    .scope p{
+        margin-left: 20px;
+        font-size: 24px;
+        margin-bottom: -30px;
+    }
+    .scope h2{
+        font-size: 44px;
+        margin-left: 20px;;
+        width: 50%;
+    }
+    .scope img{
+        width: 12%;
+        margin-top: -60px;
+    }
+    .programs {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .front-logos img{
+        width: 10%;
+    }
+    .full-logos{
+        width: 70%;
+    }
+    .programs .middle button{
+        /* text-align: center; */
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    .got p{
+        font-size: 24px;
+    }
+    .got h2{
+        font-size: 40px;
+    }
+    .q1 p{
+        font-weight: bold;
+    }
+    .still{
+        display: flex;
+    }
+    .still .middle button{
+        width: 60%;
+        margin-left: 70px;
+        /*  */
+        font-size: 14px;
+    }
+    .still p{
+        margin-left: 50px;
+        width: 100%;
+        font-size:20px;
+    }
+    .boy img{
+        display: flex;
+    }
+    .sect-8-logo{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .sect-8-logo :first-child{
+        width: 15%;
+        margin-left: 100px;
+    }
+    .sect-8-logo :nth-child(2){
+        margin-left: 400px;
+    }
+    .sect-8-title p{
+        font-size: 22px;
+    }
+    
+    .sect-8-title h2{
+        font-size: 38px;
+    }
+    .sect-8 .programs{
+        display: flex;
+        margin-top: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .full-time{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .circle img{
+        margin-top: -100px;
+        margin-right: 50px;
+    }
+    .sect-nine{
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+    .nine-text{
+        margin-top: -200px;
+    }
+    .nine-text h1{
+        font-size: 60px;
+        margin-top: -10px;
+    }
+    .pro button{
+        width: 40%;
+    }
+    footer{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .foot-socials, .copyright{
+        margin-right: 70px;
+    }
+    
+}
